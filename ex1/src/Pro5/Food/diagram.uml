@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="104.0">Pro5.Food.SouthFactory</node>
+    <node x="66.0" y="203.0">Pro5.Food.Chef</node>
+    <node x="81.0" y="0.0">Pro5.Food.FoodFactory</node>
+    <node x="289.0" y="203.0">Pro5.Food.Food</node>
+    <node x="132.0" y="307.0">Pro5.Food.SouthChef</node>
+    <node x="162.0" y="104.0">Pro5.Food.NorthFactory</node>
+    <node x="0.0" y="307.0">Pro5.Food.NorthChef</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Pro5.Food.NorthChef" target="Pro5.Food.Chef">
+      <point x="0.0" y="-27.0" />
+      <point x="56.0" y="282.0" />
+      <point x="94.0" y="282.0" />
+      <point x="-28.0" y="27.0" />
+    </edge>
+    <edge source="Pro5.Food.NorthFactory" target="Pro5.Food.FoodFactory">
+      <point x="0.0" y="-27.0" />
+      <point x="233.0" y="79.0" />
+      <point x="187.5" y="79.0" />
+      <point x="35.5" y="27.0" />
+    </edge>
+    <edge source="Pro5.Food.SouthChef" target="Pro5.Food.Chef">
+      <point x="0.0" y="-27.0" />
+      <point x="188.0" y="282.0" />
+      <point x="150.0" y="282.0" />
+      <point x="28.0" y="27.0" />
+    </edge>
+    <edge source="Pro5.Food.SouthFactory" target="Pro5.Food.FoodFactory">
+      <point x="0.0" y="-27.0" />
+      <point x="71.0" y="79.0" />
+      <point x="116.5" y="79.0" />
+      <point x="-35.5" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="382.0" y="113.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
