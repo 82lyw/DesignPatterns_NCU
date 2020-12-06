@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="126.0" y="307.0">Pro3.ImageReader.GifReader</node>
+    <node x="0.0" y="307.0">Pro3.ImageReader.JpgReader</node>
+    <node x="0.0" y="104.0">Pro3.ImageReader.JpgReaderFactory</node>
+    <node x="93.5" y="0.0">Pro3.ImageReader.ImageReaderFactory</node>
+    <node x="56.5" y="203.0">Pro3.ImageReader.ImageReader</node>
+    <node x="187.0" y="104.0">Pro3.ImageReader.GifReaderFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Pro3.ImageReader.JpgReaderFactory" target="Pro3.ImageReader.ImageReaderFactory">
+      <point x="0.0" y="-27.0" />
+      <point x="83.5" y="79.0" />
+      <point x="135.25" y="79.0" />
+      <point x="-41.75" y="27.0" />
+    </edge>
+    <edge source="Pro3.ImageReader.JpgReader" target="Pro3.ImageReader.ImageReader">
+      <point x="0.0" y="-27.0" />
+      <point x="53.0" y="282.0" />
+      <point x="86.25" y="282.0" />
+      <point x="-29.75" y="27.0" />
+    </edge>
+    <edge source="Pro3.ImageReader.GifReaderFactory" target="Pro3.ImageReader.ImageReaderFactory">
+      <point x="0.0" y="-27.0" />
+      <point x="270.5" y="79.0" />
+      <point x="218.75" y="79.0" />
+      <point x="41.75" y="27.0" />
+    </edge>
+    <edge source="Pro3.ImageReader.GifReader" target="Pro3.ImageReader.ImageReader">
+      <point x="0.0" y="-27.0" />
+      <point x="179.0" y="282.0" />
+      <point x="145.75" y="282.0" />
+      <point x="29.75" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="382.0" y="-12.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
