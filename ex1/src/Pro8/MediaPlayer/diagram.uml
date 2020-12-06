@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="479.0" y="485.0">Pro8.MediaPlayer.FullModePlayerBuilder</node>
+    <node x="364.04166666666663" y="206.0">Pro8.MediaPlayer.MediaPlayerBuilder</node>
+    <node x="20.0" y="509.5">Pro8.MediaPlayer.MediaBuildingDirector</node>
+    <node x="260.0" y="485.0">Pro8.MediaPlayer.MemoryModePlayerBuilder</node>
+    <node x="685.0" y="485.0">Pro8.MediaPlayer.SimpleModePlayBuilder</node>
+    <node x="321.7916666666667" y="0.0">Pro8.MediaPlayer.MediaPlayer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Pro8.MediaPlayer.MediaBuildingDirector" target="Pro8.MediaPlayer.MediaPlayerBuilder">
+      <point x="0.0" y="-48.5" />
+      <point x="130.0" y="435.0" />
+      <point x="395.04166666666663" y="435.0" />
+      <point x="-62.0" y="94.5" />
+    </edge>
+    <edge source="Pro8.MediaPlayer.MemoryModePlayerBuilder" target="Pro8.MediaPlayer.MediaPlayerBuilder">
+      <point x="49.75" y="-73.0" />
+      <point x="409.25" y="465.0" />
+      <point x="457.04166666666663" y="465.0" />
+      <point x="0.0" y="94.5" />
+    </edge>
+    <edge source="Pro8.MediaPlayer.MediaBuildingDirector" target="Pro8.MediaPlayer.MediaBuildingDirector">
+      <point x="0.0" y="48.5" />
+      <point x="130.0" y="626.5" />
+      <point x="0.0" y="626.5" />
+      <point x="0.0" y="558.0" />
+      <point x="-110.0" y="-0.0" />
+    </edge>
+    <edge source="Pro8.MediaPlayer.FullModePlayerBuilder" target="Pro8.MediaPlayer.MediaPlayerBuilder">
+      <point x="-46.5" y="-73.0" />
+      <point x="525.5" y="465.0" />
+      <point x="477.7083333333333" y="465.0" />
+      <point x="20.666666666666686" y="94.5" />
+    </edge>
+    <edge source="Pro8.MediaPlayer.MediaPlayerBuilder" target="Pro8.MediaPlayer.MediaPlayerBuilder">
+      <point x="-82.66666666666667" y="94.5" />
+      <point x="374.375" y="415.0" />
+      <point x="344.04166666666663" y="415.0" />
+      <point x="344.04166666666663" y="300.5" />
+      <point x="-93.0" y="-0.0" />
+    </edge>
+    <edge source="Pro8.MediaPlayer.MediaPlayer" target="Pro8.MediaPlayer.MediaPlayer">
+      <point x="-53.25" y="73.0" />
+      <point x="339.5416666666667" y="166.0" />
+      <point x="301.7916666666667" y="166.0" />
+      <point x="301.7916666666667" y="73.0" />
+      <point x="-71.0" y="-0.0" />
+    </edge>
+    <edge source="Pro8.MediaPlayer.MediaBuildingDirector" target="Pro8.MediaPlayer.MediaPlayer">
+      <point x="-73.33333333333331" y="-48.5" />
+      <point x="56.666666666666686" y="465.0" />
+      <point x="109.39285714285717" y="465.0" />
+      <point x="109.39285714285717" y="186.0" />
+      <point x="375.0416666666667" y="186.0" />
+      <point x="-17.75" y="73.0" />
+    </edge>
+    <edge source="Pro8.MediaPlayer.SimpleModePlayBuilder" target="Pro8.MediaPlayer.MediaPlayerBuilder">
+      <point x="-46.5" y="-73.0" />
+      <point x="731.5" y="445.0" />
+      <point x="519.0416666666666" y="445.0" />
+      <point x="62.0" y="94.5" />
+    </edge>
+    <edge source="Pro8.MediaPlayer.MediaPlayerBuilder" target="Pro8.MediaPlayer.MediaPlayer">
+      <point x="-46.49999999999994" y="-94.5" />
+      <point x="17.75" y="73.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="383.0" y="298.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
