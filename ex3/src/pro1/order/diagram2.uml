@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="798.0" y="236.0">pro1.order.GeneralManager</node>
+    <node x="532.0" y="236.0">pro1.order.DepartmentManager</node>
+    <node x="0.0" y="236.0">pro1.order.SubGeneralManager</node>
+    <node x="399.0" y="0.0">pro1.order.Leader</node>
+    <node x="266.0" y="236.0">pro1.order.Director</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pro1.order.DepartmentManager" target="pro1.order.Leader">
+      <point x="0.0" y="-48.5" />
+      <point x="655.0" y="216.0" />
+      <point x="552.75" y="216.0" />
+      <point x="30.75" y="93.0" />
+    </edge>
+    <edge source="pro1.order.Director" target="pro1.order.Leader">
+      <point x="0.0" y="-48.5" />
+      <point x="389.0" y="216.0" />
+      <point x="491.25" y="216.0" />
+      <point x="-30.75" y="93.0" />
+    </edge>
+    <edge source="pro1.order.GeneralManager" target="pro1.order.Leader">
+      <point x="0.0" y="-48.5" />
+      <point x="921.0" y="206.0" />
+      <point x="614.25" y="206.0" />
+      <point x="92.25" y="93.0" />
+    </edge>
+    <edge source="pro1.order.SubGeneralManager" target="pro1.order.Leader">
+      <point x="0.0" y="-48.5" />
+      <point x="123.0" y="206.0" />
+      <point x="429.75" y="206.0" />
+      <point x="-92.25" y="93.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="414.5" y="113.0" />
+  <SelectedNodes>
+    <node>pro1.order.Leader</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
