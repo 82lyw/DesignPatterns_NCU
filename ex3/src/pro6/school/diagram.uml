@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="20.0" y="127.0">pro6.school.AbstractSchool</node>
+    <node x="47.0" y="0.0">pro6.school.AbstractObserver</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pro6.school.AbstractSchool" target="pro6.school.AbstractObserver">
+      <point x="0.0" y="-127.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="pro6.school.AbstractSchool" target="pro6.school.AbstractSchool">
+      <point x="0.0" y="127.5" />
+      <point x="130.0" y="402.0" />
+      <point x="0.0" y="402.0" />
+      <point x="0.0" y="254.5" />
+      <point x="-110.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="413.0" y="248.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
