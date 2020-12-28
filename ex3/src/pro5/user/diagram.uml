@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="60.25" y="630.0">pro5.user.Caretaker</node>
+    <node x="46.21875" y="384.0">pro5.user.Memento</node>
+    <node x="20.0" y="0.0">pro5.user.UserInfoDTO</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pro5.user.UserInfoDTO" target="pro5.user.UserInfoDTO">
+      <point x="-91.875" y="162.0" />
+      <point x="50.625" y="344.0" />
+      <point x="0.0" y="344.0" />
+      <point x="0.0" y="162.0" />
+      <point x="-122.5" y="-0.0" />
+    </edge>
+    <edge source="pro5.user.Caretaker" target="pro5.user.Memento">
+      <point x="29.0" y="-104.5" />
+      <point x="205.25" y="610.0" />
+      <point x="201.96875" y="610.0" />
+      <point x="66.75" y="93.0" />
+    </edge>
+    <edge source="pro5.user.Caretaker" target="pro5.user.Caretaker">
+      <point x="0.0" y="104.5" />
+      <point x="176.25" y="859.0" />
+      <point x="40.25" y="859.0" />
+      <point x="40.25" y="734.5" />
+      <point x="-116.0" y="-0.0" />
+    </edge>
+    <edge source="pro5.user.Memento" target="pro5.user.Memento">
+      <point x="-66.75" y="93.0" />
+      <point x="68.46875" y="590.0" />
+      <point x="26.21875" y="590.0" />
+      <point x="26.21875" y="477.0" />
+      <point x="-89.0" y="-0.0" />
+    </edge>
+    <edge source="pro5.user.Caretaker" target="pro5.user.UserInfoDTO">
+      <point x="87.0" y="-104.5" />
+      <point x="263.25" y="610.0" />
+      <point x="234.71875" y="610.0" />
+      <point x="91.875" y="162.0" />
+    </edge>
+    <edge source="pro5.user.Memento" target="pro5.user.UserInfoDTO">
+      <point x="44.5" y="-93.0" />
+      <point x="179.71875" y="364.0" />
+      <point x="173.125" y="364.0" />
+      <point x="30.625" y="162.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="413.0" y="357.0" />
+  <SelectedNodes>
+    <node>pro5.user.UserInfoDTO</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
